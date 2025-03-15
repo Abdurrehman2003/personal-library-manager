@@ -2,18 +2,18 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![License](https://img.shields.io/badge/License-MIT-green)
 
-A command-line application to manage your personal book library. This Python-based tool allows you to add, remove, search, and display books, as well as view statistics about your library. The program also includes file handling to save and load your library data automatically.
+A command-line application to manage your personal book library. This Python-based tool allows you to add, remove, search, and display books, as well as view statistics about your library. It also features file handling to automatically save and load your library data.
 
 ---
 
 ## Features
 
-- **Add a Book**: Add a new book to your library with details like title, author, publication year, genre, and read status.
-- **Remove a Book**: Remove a book from your library by its title.
-- **Search for a Book**: Search for books by title or author.
-- **Display All Books**: View all books in your library in a formatted list.
-- **Display Statistics**: See the total number of books and the percentage of books you've read.
-- **Save and Load Library**: Automatically save your library to a file (`library.txt`) when you exit the program and load it when you start the program again.
+- **Add a Book**: Store book details such as title, author, publication year, genre, and read status.
+- **Remove a Book**: Delete books by their title.
+- **Search for a Book**: Search books by title or author.
+- **Display All Books**: View all stored books in a formatted list.
+- **Display Statistics**: Get insights into the total number of books and the percentage of books read.
+- **Save and Load Library**: Automatically saves your library to `library.txt` when exiting and reloads it upon restart.
 
 ---
 
@@ -28,7 +28,7 @@ A command-line application to manage your personal book library. This Python-bas
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/library-manager-cli.git
+   git clone https://github.com/Abdurrehman2003/library-manager-cli.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -54,23 +54,23 @@ A command-line application to manage your personal book library. This Python-bas
    6. Exit
    Enter your choice:
    ```
-3. Use the options to add, remove, search, or view books and statistics.
-4. When you exit the program, your library data will be saved automatically to `library.txt`.
+3. Choose an option to add, remove, search, or view books.
+4. Your library data is automatically saved to `library.txt` upon exit.
 
 ---
 
 ## File Handling
 
-The program automatically saves your library data to a file named `library.txt` in the same directory as the script. When you restart the program, it loads the library data from this file.
+The program automatically saves your library data to a file named `library.txt` in the same directory as the script.  
 
-- **First Run**: If `library.txt` does not exist, the program starts with an empty library.
-- **Subsequent Runs**: The program loads the library data from `library.txt` if it exists.
+- **First Run**: If `library.txt` does not exist, the program starts with an empty library.  
+- **Subsequent Runs**: The program loads data from `library.txt` if available.
 
 ---
 
 ## Example Workflow
 
-### Add a Book
+### **Adding a Book**
 ```
 Enter the book title: The Great Gatsby
 Enter the author: F. Scott Fitzgerald
@@ -80,20 +80,20 @@ Have you read this book? (yes/no): yes
 Book added successfully!
 ```
 
-### Display All Books
+### **Displaying All Books**
 ```
 Your Library:
 1. The Great Gatsby by F. Scott Fitzgerald (1925) - Fiction - Read
 2. 1984 by George Orwell (1949) - Dystopian - Unread
 ```
 
-### Display Statistics
+### **Displaying Statistics**
 ```
 Total books: 2
 Percentage read: 50.0%
 ```
 
-### Exit
+### **Exiting**
 ```
 Library saved to file. Goodbye!
 ```
@@ -102,7 +102,7 @@ Library saved to file. Goodbye!
 
 ## Contributing
 
-Contributions are welcome! If you'd like to contribute, please follow these steps:
+Contributions are welcome! If you'd like to contribute, follow these steps:
 1. Fork the repository.
 2. Create a new branch for your feature or bugfix.
 3. Commit your changes.
@@ -126,15 +126,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For questions or feedback, please reach out to [me via email](mailto:your.abdulrehmanbinadeem@gmail.com).
-
-```
-
----
-
-### How to Use This README.md:
-1. Copy the content above into a file named `README.md`.
-2. Replace placeholders like `your-username`, `Your Name`, and `your.email@example.com` with your actual GitHub username, name, and email.
-3. Save the file in the root directory of your GitHub repository.
-
-This `README.md` provides a clear and professional overview of your project, making it easy for users and contributors to understand and use your Library Manager CLI. Let me know if you need further assistance! 😊
+For questions or feedback, reach out via:  
+📧 Email: [your.abdulrehmanbinadeem@gmail.com](mailto:your.abdulrehmanbinadeem@gmail.com)  
+🔗 LinkedIn: [Abdul Rehman](https://www.linkedin.com/in/abdulrehman-genai-engineer/)
