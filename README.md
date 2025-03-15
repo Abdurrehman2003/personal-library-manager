@@ -129,7 +129,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For questions or feedback, reach out via:  
 📧 Email: [abdulrehmanbinadeem@gmail.com](mailto:abdulrehmanbinadeem@gmail.com)  
 🔗 LinkedIn: [Abdul Rehman](https://www.linkedin.com/in/abdulrehman-genai-engineer/)
+<br> 
+<br> 
 
 
-   
-                                                              ## ⭐ If you like this project, please consider giving it a star! ⭐
+## ⭐ If you like this project, please consider giving it a star! ⭐
